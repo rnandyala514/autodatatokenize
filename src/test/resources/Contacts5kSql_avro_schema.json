@@ -1,0 +1,50 @@
+{
+  "type": "record",
+  "name": "topLevelRecord",
+  "fields": [
+    {
+      "name": "row_id",
+      "type": [
+        "null",
+        "int"
+      ],
+      "doc": ""
+    },
+    {
+      "name": "person_name",
+      "type": [
+        "null",
+        {
+          "type": "string",
+          "logicalType": "varchar",
+          "maxLength": 16383
+        }
+      ],
+      "doc": ""
+    },
+    {
+      "name": "contact_type",
+      "type": [
+        "null",
+        {
+          "type": "string",
+          "logicalType": "varchar",
+          "maxLength": 16383
+        }
+      ],
+      "doc": ""
+    },
+    {
+      "name": "contact_number",
+      "type": [
+        "null",
+        {
+          "type": "string",
+          "logicalType": "varchar",
+          "maxLength": 16383
+        }
+      ],
+      "doc": ""
+    }
+  ]
+}
